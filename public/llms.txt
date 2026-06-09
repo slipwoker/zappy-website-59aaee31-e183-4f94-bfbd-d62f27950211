@@ -1,0 +1,61 @@
+# האסטרונאוט תעבוד — Generative Engine Optimization Map
+
+> An interactive educational web game for children called 'The Astronaut Will Work' (האסטרונאוט תעבוד). A lost astronaut must travel through 13 celestial bodies (the Sun, 8 planets, and 5 dwarf planets) to return home to Earth. At each stop, an alien pops up and hands the astronaut a note containing real scientific facts and a riddle about that celestial body — the player must click the correct answer to proceed. The game ends with a celebratory 'Finally going home!' screen followed by 'Game Over'. The tone is playful, adventurous, and educational, designed to make learning about the solar system fun and engaging for kids.
+
+---
+
+## Pages
+
+### בית
+https://-59aaee31.zappy5.app
+משחק חינוכי לילדים בכיתה ה&#39; על מדעים ומערכת השמש. עזרו לאסטרונאוט האבוד לעבור דרך 13 גרמי שמיים, לפתור חידות מדעיות ולגלות עובדות מרתקות. הרפתקה כיפית שמעוררת סקרנות ולמידה — התחילו לשחק עכשיו!
+
+## Legal & Policy
+
+### Privacy Policy
+https://-59aaee31.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-59aaee31.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-59aaee31.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About האסטרונאוט תעבוד
+An interactive educational web game for children called 'The Astronaut Will Work' (האסטרונאוט תעבוד). A lost astronaut must travel through 13 celestial bodies (the Sun, 8 planets, and 5 dwarf planets) to return home to Earth. At each stop, an alien pops up and hands the astronaut a note containing real scientific facts and a riddle about that celestial body — the player must click the correct answer to proceed. The game ends with a celebratory 'Finally going home!' screen followed by 'Game Over'. The tone is playful, adventurous, and educational, designed to make learning about the solar system fun and engaging for kids.
+
+## Services/Products
+- 13 עצירות: השמש + 8 כוכבי לכת + 5 ננסים
+- חייזר קופץ בכל עצירה ומוסר פתק עם מידע מדעי
+- חידה עם תשובות הניתנות ללחיצה בכל עצירה
+- אנימציית חללית בין הכוכבים
+- מסך סיום: 'סוף סוף חוזרים הביתה' ואז 'סוף משחק'
+
+## Target Audience
+- ילדים בגיל בית ספר
+- הורים חובבי מדע
+- מוסדות חינוך
+
+## Industry
+Educational Game
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-59aaee31.zappy5.app/sitemap.xml
+- Robots: https://-59aaee31.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-59aaee31.zappy5.app/llms-full.txt
