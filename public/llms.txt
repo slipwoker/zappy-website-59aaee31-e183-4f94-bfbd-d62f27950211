@@ -7,21 +7,21 @@
 ## Pages
 
 ### בית
-https://-59aaee31.zappy5.app
+https://example.com
 משחק חינוכי לילדים בכיתה ה&#39; על מדעים ומערכת השמש. עזרו לאסטרונאוט האבוד לעבור דרך 13 גרמי שמיים, לפתור חידות מדעיות ולגלות עובדות מרתקות. הרפתקה כיפית שמעוררת סקרנות ולמידה — התחילו לשחק עכשיו!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-59aaee31.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-59aaee31.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-59aaee31.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -56,6 +56,6 @@ Educational Game
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-59aaee31.zappy5.app/sitemap.xml
-- Robots: https://-59aaee31.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-59aaee31.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
