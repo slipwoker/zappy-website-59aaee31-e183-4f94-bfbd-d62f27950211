@@ -815,12 +815,12 @@
   <main id="main">
     <section data-band-index="0" id="hero" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" dir="rtl" style="position:relative; overflow:visible;">
   <!-- Background Image Layer -->
-  <div class="index-hero-section__bg-wrapper">
+  <div class="index-hero-section__bg-wrapper" id="zappy-section-1">
     <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="hero-bg-astronaut" data-context="A cinematic wide shot of a lost astronaut floating in deep outer space, surrounded by glowing stars, colorful nebulas, and a distant view of the solar system planets. The scene is adventurous and magical, with a purple and blue cosmic color palette, perfect for a childrens educational game hero background." width="1920" height="1080" src="/assets/site-hero-bg-astronaut.webp" alt="אסטרונאוט בחלל" class="index-hero-section__bg-img">
   </div>
 
   <!-- Scrim Overlay for Text Legibility -->
-  <div class="index-hero-section__overlay" aria-hidden="true"></div>
+  <div class="index-hero-section__overlay" aria-hidden="true" id="zappy-section-2"></div>
 
   <!-- Decorative Galaxy Swirl (SVG) -->
   <svg class="index-hero-section__decor-galaxy" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
@@ -847,14 +847,14 @@
   </svg>
 
   <!-- Content Layer -->
-  <div class="index-hero-section__content">
+  <div class="index-hero-section__content" id="zappy-section-3">
     <h1 class="index-hero-section__headline">האסטרונאוט תעבוד</h1>
     <h3 class="index-hero-section__subheadline">צאו למסע חללי מרתק במערכת השמש! עזרו לאסטרונאוט האבוד לחזור הביתה דרך 13 גופים שמימיים, פתרו חידות ולמדו עובדות מדעיות מדהימות.</h3>
     <a href="#contact" class="index-hero-section__cta btn-pill">התחילו את ההרפתקה</a>
   </div>
 
   <!-- Bottom Divider Transition -->
-  <div class="index-hero-section__divider-wrapper">
+  <div class="index-hero-section__divider-wrapper" id="zappy-section-4">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,30 Q150,50 300,35 T600,40 Q750,30 900,45 T1200,30 L1200,80 Z" fill="#12124A"></path>
     </svg>
@@ -868,7 +868,7 @@
       <p>מסע חינוכי בחלל שמשלב למידה, סקרנות והרפתקה בלתי נשכחת</p>
     </div>
     <div class="index-features-grid">
-      <article class="index-features-card">
+      <article class="index-features-card" id="zappy-section-6">
         <div class="index-features-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"></circle>
@@ -881,7 +881,7 @@
           <p>הילדים יוצאים למסע בין 13 גרמי שמיים – השמש, כוכבי הלכת והכוכבים הננסיים. בכל תחנה הם מקבלים מידע מדעי אמיתי ופותרים חידות מאתגרות שהופכות את הלמידה לחוויה כיפית ובלתי נשכחת.</p>
         </div>
       </article>
-      <article class="index-features-card">
+      <article class="index-features-card" id="zappy-section-7">
         <div class="index-features-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M24 4L28 16H40L30 24L34 36L24 28L14 36L18 24L8 16H20L24 4Z" fill="currentColor" opacity="0.9"></path>
@@ -892,7 +892,7 @@
           <p>בכל כוכב לכת מחכה חייזר ידידותי שמגיש פתק עם חידה מדעית. הילדים צריכים לחשוב, לחקור ולבחור את התשובה הנכונה כדי להמשיך במסע. ככה לומדים עובדות מדעיות בלי להרגיש שזה שיעור!</p>
         </div>
       </article>
-      <article class="index-features-card">
+      <article class="index-features-card" id="zappy-section-8">
         <div class="index-features-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"></circle>
@@ -949,19 +949,19 @@
 </section>
 
 <section data-band-index="3" id="testimonials" class="index-testimonials-section" data-layout-spec="בית-testimonials">
-  <div class="index-testimonials-section__container">
+  <div class="index-testimonials-section__container" id="zappy-section-11">
     <!-- Section Header -->
-    <div class="index-testimonials-section__header">
+    <div class="index-testimonials-section__header" id="zappy-section-12">
       <h2 class="index-testimonials-section__title">מה אומרים על המשחק?</h2>
       <p class="index-testimonials-section__subtitle">ילדים, הורים ומורים מספרים על החוויה בחלל</p>
     </div>
 
     <!-- Testimonials Grid -->
-    <div class="index-testimonials-section__grid">
+    <div class="index-testimonials-section__grid" id="zappy-section-13">
       
       <!-- Card 1 -->
-      <article class="index-testimonials-section__card">
-        <div class="index-testimonials-section__card-stars" aria-hidden="true">
+      <article class="index-testimonials-section__card" id="zappy-section-14">
+        <div class="index-testimonials-section__card-stars" aria-hidden="true" id="zappy-section-15">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
@@ -971,11 +971,11 @@
         <blockquote class="index-testimonials-section__quote">
           <p>"האסטרונאוט תעבוד" הוא בדיוק מה שחיפשתי לילד בכיתה ה'. הוא למד על מערכת השמש בכיף, פתר חידות על כוכבי לכת, ועכשיו הוא יודע להבדיל בין כוכב חמה לנוגה. ממליצה בחום!</p>
         </blockquote>
-        <div class="index-testimonials-section__author">
-          <div class="index-testimonials-section__avatar" aria-hidden="true">
+        <div class="index-testimonials-section__author" id="zappy-section-16">
+          <div class="index-testimonials-section__avatar" aria-hidden="true" id="zappy-section-17">
             <span>ר</span>
           </div>
-          <div class="index-testimonials-section__author-info">
+          <div class="index-testimonials-section__author-info" id="zappy-section-18">
             <strong class="index-testimonials-section__author-name">רותי כהן</strong>
             <span class="index-testimonials-section__author-role">אמא לילד בכיתה ה'</span>
           </div>
@@ -983,8 +983,8 @@
       </article>
 
       <!-- Card 2 -->
-      <article class="index-testimonials-section__card">
-        <div class="index-testimonials-section__card-stars" aria-hidden="true">
+      <article class="index-testimonials-section__card" id="zappy-section-19">
+        <div class="index-testimonials-section__card-stars" aria-hidden="true" id="zappy-section-20">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
@@ -994,11 +994,11 @@
         <blockquote class="index-testimonials-section__quote">
           <p>השתמשתי במשחק בשיעור מדעים והתלמידים פשוט לא הפסיקו לשאול מתי נשחק שוב. האנימציה יפהפייה, החידות מאתגרות, והכי חשוב – הם באמת זוכרים את החומר. כלי חינוכי מעולה!</p>
         </blockquote>
-        <div class="index-testimonials-section__author">
-          <div class="index-testimonials-section__avatar" aria-hidden="true">
+        <div class="index-testimonials-section__author" id="zappy-section-21">
+          <div class="index-testimonials-section__avatar" aria-hidden="true" id="zappy-section-22">
             <span>א</span>
           </div>
-          <div class="index-testimonials-section__author-info">
+          <div class="index-testimonials-section__author-info" id="zappy-section-23">
             <strong class="index-testimonials-section__author-name">אבי לוי</strong>
             <span class="index-testimonials-section__author-role">מורה למדעים, בית ספר "הרצל"</span>
           </div>
@@ -1006,8 +1006,8 @@
       </article>
 
       <!-- Card 3 -->
-      <article class="index-testimonials-section__card">
-        <div class="index-testimonials-section__card-stars" aria-hidden="true">
+      <article class="index-testimonials-section__card" id="zappy-section-24">
+        <div class="index-testimonials-section__card-stars" aria-hidden="true" id="zappy-section-25">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
@@ -1017,11 +1017,11 @@
         <blockquote class="index-testimonials-section__quote">
           <p>הכוכבים הננסיים! מי היה מאמין שאני אזכור את שמותיהם? המשחק הזה הפך את העבודה במדעים להרפתקה אמיתית. אני אוהב את החייזרים ואת הפתקים שהם נותנים. סוף סוף משחק כיפי לימודי!</p>
         </blockquote>
-        <div class="index-testimonials-section__author">
-          <div class="index-testimonials-section__avatar" aria-hidden="true">
+        <div class="index-testimonials-section__author" id="zappy-section-26">
+          <div class="index-testimonials-section__avatar" aria-hidden="true" id="zappy-section-27">
             <span>י</span>
           </div>
-          <div class="index-testimonials-section__author-info">
+          <div class="index-testimonials-section__author-info" id="zappy-section-28">
             <strong class="index-testimonials-section__author-name">יואב בן דוד</strong>
             <span class="index-testimonials-section__author-role">שחקן בן 10, חובב חלל</span>
           </div>
@@ -1029,8 +1029,8 @@
       </article>
 
       <!-- Card 4 -->
-      <article class="index-testimonials-section__card">
-        <div class="index-testimonials-section__card-stars" aria-hidden="true">
+      <article class="index-testimonials-section__card" id="zappy-section-29">
+        <div class="index-testimonials-section__card-stars" aria-hidden="true" id="zappy-section-30">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84L18 6.5l-4 3.91.94 5.51L10 13.5l-4.94 2.42.94-5.51L2 6.5l5.61-.66L10 1z"></path></svg>
@@ -1040,11 +1040,11 @@
         <blockquote class="index-testimonials-section__quote">
           <p>הגרפיקה והאנימציה ברמה שלא רואים במשחקים חינוכיים. הילדה שלי חושבת שהיא באמת טסה בחלל! החידות על כוכבי הלכת והשמש מעולות, וזה נותן לה ביטחון עצמי כשהיא מצליחה לענות נכון.</p>
         </blockquote>
-        <div class="index-testimonials-section__author">
-          <div class="index-testimonials-section__avatar" aria-hidden="true">
+        <div class="index-testimonials-section__author" id="zappy-section-31">
+          <div class="index-testimonials-section__avatar" aria-hidden="true" id="zappy-section-32">
             <span>מ</span>
           </div>
-          <div class="index-testimonials-section__author-info">
+          <div class="index-testimonials-section__author-info" id="zappy-section-33">
             <strong class="index-testimonials-section__author-name">מיכל אברהם</strong>
             <span class="index-testimonials-section__author-role">אמא לשתי בנות, יועצת חינוכית</span>
           </div>
@@ -1055,7 +1055,7 @@
   </div>
 
   <!-- Bottom Divider -->
-  <div class="index-testimonials-section__divider-wrapper" data-no-icon-edit="true" aria-hidden="true">
+  <div class="index-testimonials-section__divider-wrapper" data-no-icon-edit="true" aria-hidden="true" id="zappy-section-34">
     <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,35 Q60,30 120,38 T240,32 Q300,38 360,30 T480,35 Q540,32 600,38 T720,30 Q780,35 840,32 T960,38 Q1020,30 1080,35 T1200,32 L1200,80 Z" fill="#12124A"></path>
     </svg>
@@ -1063,14 +1063,14 @@
 </section>
 
 <section data-band-index="4" id="stats" class="index-stats-section" data-layout-spec="בית-stats">
-  <div class="index-stats-section__container">
-    <div class="index-stats-section__header">
+  <div class="index-stats-section__container" id="zappy-section-36">
+    <div class="index-stats-section__header" id="zappy-section-37">
       <h2 class="index-stats-section__title">המסע במספרים</h2>
       <p class="index-stats-section__subtitle">נתונים מרתקים על ההרפתקה החינוכית שלנו במערכת השמש</p>
     </div>
-    <div class="index-stats-section__grid">
-      <div class="index-stats-section__card">
-        <div class="index-stats-section__card-icon">
+    <div class="index-stats-section__grid" id="zappy-section-38">
+      <div class="index-stats-section__card" id="zappy-section-39">
+        <div class="index-stats-section__card-icon" id="zappy-section-40">
           <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"></circle>
             <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="2"></circle>
@@ -1081,8 +1081,8 @@
         <p class="index-stats-section__label">גרמי שמיים לחקור</p>
         <p class="index-stats-section__desc">השמש, שמונה כוכבי לכת וחמישה כוכבים ננסיים</p>
       </div>
-      <div class="index-stats-section__card">
-        <div class="index-stats-section__card-icon">
+      <div class="index-stats-section__card" id="zappy-section-41">
+        <div class="index-stats-section__card-icon" id="zappy-section-42">
           <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 4L24 16H36L26 24L30 36L20 28L10 36L14 24L4 16H16L20 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
           </svg>
@@ -1091,8 +1091,8 @@
         <p class="index-stats-section__label">עובדות מדעיות</p>
         <p class="index-stats-section__desc">מידע אמיתי ומרתק על כל גרם שמיים במערכת</p>
       </div>
-      <div class="index-stats-section__card">
-        <div class="index-stats-section__card-icon">
+      <div class="index-stats-section__card" id="zappy-section-43">
+        <div class="index-stats-section__card-icon" id="zappy-section-44">
           <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 4C20 4 8 12 8 22C8 28.6274 13.3726 34 20 34C26.6274 34 32 28.6274 32 22C32 12 20 4 20 4Z" stroke="currentColor" stroke-width="2"></path>
             <circle cx="20" cy="22" r="4" stroke="currentColor" stroke-width="2"></circle>
@@ -1103,8 +1103,8 @@
         <p class="index-stats-section__label">חידות מאתגרות</p>
         <p class="index-stats-section__desc">חייזרים מציגים פתקים עם חידות על כל כוכב לכת</p>
       </div>
-      <div class="index-stats-section__card">
-        <div class="index-stats-section__card-icon">
+      <div class="index-stats-section__card" id="zappy-section-45">
+        <div class="index-stats-section__card-icon" id="zappy-section-46">
           <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 4L20 20L32 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             <circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="2"></circle>
@@ -1117,26 +1117,26 @@
       </div>
     </div>
   </div>
-  <div class="index-stats-section__glow index-stats-section__glow--left"></div>
-  <div class="index-stats-section__glow index-stats-section__glow--right"></div>
+  <div class="index-stats-section__glow index-stats-section__glow--left" id="zappy-section-47"></div>
+  <div class="index-stats-section__glow index-stats-section__glow--right" id="zappy-section-48"></div>
 </section>
 
 <section data-band-index="5" id="cta" class="index-cta-section" data-layout-spec="בית-cta">
   <!-- Decorative elements -->
-  <div class="index-cta-section__bg-stars" aria-hidden="true"></div>
-  <div class="index-cta-section__galaxy-swirl" aria-hidden="true"></div>
-  <div class="index-cta-section__sparkle-top" aria-hidden="true"></div>
-  <div class="index-cta-section__sparkle-bottom" aria-hidden="true"></div>
+  <div class="index-cta-section__bg-stars" aria-hidden="true" id="zappy-section-50"></div>
+  <div class="index-cta-section__galaxy-swirl" aria-hidden="true" id="zappy-section-51"></div>
+  <div class="index-cta-section__sparkle-top" aria-hidden="true" id="zappy-section-52"></div>
+  <div class="index-cta-section__sparkle-bottom" aria-hidden="true" id="zappy-section-53"></div>
 
-  <div class="index-cta-section__container">
-    <div class="index-cta-section__content">
+  <div class="index-cta-section__container" id="zappy-section-54">
+    <div class="index-cta-section__content" id="zappy-section-55">
       <h2 class="index-cta-section__heading">
         מוכנים לצאת למסע בין כוכבים?
       </h2>
       <p class="index-cta-section__subtext">
         הצטרפו לאסטרונאוט האבוד ועזרו לו לחזור הביתה! פתרו חידות, למדו עובדות מדעיות מדהימות על מערכת השמש, וגלו את סודות היקום בדרך הכי כיפית שיש.
       </p>
-      <div class="index-cta-section__actions">
+      <div class="index-cta-section__actions" id="zappy-section-56">
         <a href="/play" class="index-cta-section__btn index-cta-section__btn--primary">
           <span>שחקו עכשיו</span>
           <svg class="index-cta-section__btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
